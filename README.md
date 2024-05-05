@@ -13,7 +13,9 @@ First, install the Python dependencies:
 Second, run the command `python -m src.ml_gen_detection.dagpap24_baseline`.
 ## Data
 
-The data for train and dev/test in [data](data)
+- [Download training dataset](https://drive.google.com/file/d/1hJ-JtC0i8LBpD1hF3xWfRjkax42uE2NP/)
+- [Download dev dataset](https://drive.google.com/file/d/1rurhsY7cbS1JoYtE4h2-vTVFUdMP8fFo/)
+- [Download test dataset](https://drive.google.com/file/d/1Y7bALhTbsBZ-cza9QMlBu3_qgUeiFOdC/)
 
 ### Train data
 
