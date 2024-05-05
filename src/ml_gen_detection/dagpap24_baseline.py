@@ -229,13 +229,7 @@ def convert_parquet_data_to_json(
         cache_dir=cache_dir,
     )
 
-    logger.info("Splitting train data into train and validation splits (K-fold validation)")
-    # Make the kfold object
-    #folds = StratifiedKFold(n_splits=10)
-    
-    # Now make our splits based off of the labels. 
-    # We can use `np.zeros()` here since it only works off of indices, we really care about the labels
-    #splits = folds.split(np.zeros(datasets["train"].num_rows), datasets["train"]["label"])
+    logger.info("Splitting train data into train and validation splits")
     
     train_df, val_df = train_test_split(
         train_df, test_size=val_size, random_state=seed, shuffle=True
